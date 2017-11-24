@@ -35,15 +35,15 @@ struct _POSIT_PID
 
 //positional pid
 //
-void Posit_PID_Set(struct _POSIT_PID* posit_pid);
-
-u16 Posit_PID_Conver(struct _POSIT_PID posit_pid,u16 act_cntx);
-
-
+void Posit_PID_Set_CNTx(u16 set_CNTx);   //设置理想速度值
+void Posit_PID_Init(void);
+u16 Posit_PID_Conver(u16 act_cntx);
 
 
-//incremental pid;
-void Incre_PID_Init(void);
-u16 Incre_PID_Conver(u16 ECODE_CNTx);   //输入编码器的值   输出PID修改后的 控制电机的PWM值 compare
+
+
+////incremental pid;
+//void Incre_PID_Init(void);
+//u16 Posit_PID_Conver(struct _POSIT_PID posit_pid,u16 act_cntx);   //输入编码器的值   输出PID修改后的 控制电机的PWM值 compare
 
 #endif

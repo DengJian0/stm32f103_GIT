@@ -10,3 +10,8 @@
 ..\output\timer.o: ..\Driver\Libraries\inc\misc.h
 ..\output\timer.o: ..\Driver\Libraries\inc\stm32f10x_tim.h
 ..\output\timer.o: ..\Driver\Libraries\inc\stm32f10x_rcc.h
+..\output\timer.o: ..\MYLIB\PID\pid.h
+..\output\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\timer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\output\timer.o: ..\MYLIB\MOTOR\motor.h
+..\output\timer.o: ..\SYSTEM\timer\timer.h

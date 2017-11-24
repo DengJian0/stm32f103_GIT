@@ -19,13 +19,16 @@ int main()
 	NVIC_PriorityGroupConfig(0x02);
 	TIM3_ECODE_Init();
   TIM4_GetSpeed_Init();
+	delay_ms(2000);
+	Posit_PID_Init();
+	Posit_PID_Set_CNTx(0xD0);
 	
   while(1)
 	{
 	
 //		delay_ms(2000);
 //		
-		MOTOR_SET(speed); 
+	//	MOTOR_SET(speed); 
 //		
 //		if(flag==0)
 //			plus+=10;

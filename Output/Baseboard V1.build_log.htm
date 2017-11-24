@@ -18,14 +18,15 @@ Library Manager: ArmAr.exe V5.05 update 1 (build 106)
 Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
 CPU DLL:         SARMCM3.DLL V5.14.0.0
 Dialog DLL:      DCM.DLL V1.13.1.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
 Dialog DLL:      TCM.DLL V1.14.4.0
  
 <h2>Project:</h2>
-F:\RobotMaster\Embedded_software\Project\MOTOR_stm32f103c8\Project\Baseboard V1.0.uvprojx
-Project File Date:  11/19/2017
+F:\RobotMaster\Embedded_software\Project\stm32f103_GIT\Project\Baseboard V1.0.uvprojx
+Project File Date:  11/24/2017
 
 <h2>Output:</h2>
+*** Note: Rebuilding project, since 'Options->Output->Create Batch File' is selected.
 Rebuild target 'Target 1'
 compiling misc.c...
 compiling stm32f10x_gpio.c...
@@ -41,12 +42,13 @@ compiling main.c...
 ..\USER\main.c: 1 warning, 0 errors
 compiling motor.c...
 compiling pid.c...
+compiling ecode.c...
 compiling timer.c...
-..\SYSTEM\timer\timer.c(163): warning:  #68-D: integer conversion resulted in a change of sign
+..\SYSTEM\timer\timer.c(166): warning:  #68-D: integer conversion resulted in a change of sign
                 if(ECODE_CNTx<-20000)//ÏòÉÏÒç³ö
 ..\SYSTEM\timer\timer.c: 1 warning, 0 errors
 linking...
-Program Size: Code=3304 RO-data=268 RW-data=28 ZI-data=1028  
+Program Size: Code=4072 RO-data=268 RW-data=24 ZI-data=1056  
 FromELF: creating hex file...
 "..\Output\Baseboard V1.0" - 0 Error(s), 2 Warning(s).
 
@@ -59,7 +61,7 @@ Package Vendor: ARM
    * Component: CORE Version: 3.40.0
 
 <h2>Collection of Component include folders:</h2>
-  F:\RobotMaster\Embedded_software\Project\MOTOR_stm32f103c8\Project\RTE
+  F:\RobotMaster\Embedded_software\Project\stm32f103_GIT\Project\RTE
   D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
   D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
 

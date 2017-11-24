@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Driver\CMSIS -I..\Output -I..\Project -I..\Driver\Libraries\inc -I..\Driver\Libraries\src -I..\Driver\Libraries\Startup -I..\Driver\Startup -I..\Driver\CMSIS\CM3\CoreSupport -I..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Driver\CMSIS\Documentation -I..\USER -I..\MYLIB\MOTOR -I..\SYSTEM\timer -I..\MYLIB\PID -I..\MYLIB\ECODE
+-I F:\RobotMaster\Embedded_software\Project\stm32f103_GIT\Project\RTE
+-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\output\ecode.o --omf_browse ..\output\ecode.crf --depend ..\output\ecode.d "..\MYLIB\ECODE\ecode.c"

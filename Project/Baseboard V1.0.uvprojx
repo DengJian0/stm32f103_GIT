@@ -147,7 +147,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>11</TargetSelection>
+          <TargetSelection>6</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -161,7 +161,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>STLink\ST-LINKIII-KEIL_SWO.dll</Driver>
+            <Driver>Segger\JL2CM3.dll</Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -171,10 +171,10 @@
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
-            <DriverSelection>4103</DriverSelection>
+            <DriverSelection>4099</DriverSelection>
           </Flash1>
           <bUseTDR>0</bUseTDR>
-          <Flash2>STLink\ST-LINKIII-KEIL_SWO.dll</Flash2>
+          <Flash2>Segger\JL2CM3.dll</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Driver\CMSIS;..\Output;..\Project;..\Driver\Libraries\inc;..\Driver\Libraries\src;..\Driver\Libraries\Startup;..\Driver\Startup;..\Driver\CMSIS\CM3\CoreSupport;..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\Driver\CMSIS\Documentation;..\USER;..\MYLIB\MOTOR;..\SYSTEM\timer;..\MYLIB\PID</IncludePath>
+              <IncludePath>..\Driver\CMSIS;..\Output;..\Project;..\Driver\Libraries\inc;..\Driver\Libraries\src;..\Driver\Libraries\Startup;..\Driver\Startup;..\Driver\CMSIS\CM3\CoreSupport;..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x;..\Driver\CMSIS\Documentation;..\USER;..\MYLIB\MOTOR;..\SYSTEM\timer;..\MYLIB\PID;..\MYLIB\ECODE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -477,6 +477,11 @@
               <FileName>pid.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\MYLIB\PID\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>ecode.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MYLIB\ECODE\ecode.c</FilePath>
             </File>
           </Files>
         </Group>

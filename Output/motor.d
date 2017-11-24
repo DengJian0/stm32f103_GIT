@@ -14,3 +14,4 @@
 ..\output\motor.o: ..\MYLIB\PID\pid.h
 ..\output\motor.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\output\motor.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\output\motor.o: ..\MYLIB\MOTOR\motor.h

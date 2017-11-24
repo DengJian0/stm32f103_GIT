@@ -151,6 +151,9 @@ void TIM4_GetSpeed_Init(void)
 u32 ECODE_CNT1=0,ECODE_CNT2=0,ECODE_CNTx,pp;//记录
 u32 Verlocity;
 u8 test=0; //测试使用
+u16 crlout=0;
+////////////////////////////TIM4中断定时测速并调节PWM
+
 void TIM4_IRQHandler()
 {
    if(TIM_GetITStatus(TIM4,TIM_IT_Update)!=RESET)
@@ -174,11 +177,19 @@ void TIM4_IRQHandler()
 		
 		//根据  ECODE_CNTx计算出实际速度
 		
-		//根据CNTX来调节PWM占空比
-		
+		////////////////////////////////根据实际CNTX来调节PWM占空比
+		//初始化PID
+		//Posit_PID_Set_CNTx(0xD0);
+	  crlout=Posit_PID_Conver(test);   //输入实际速度
+		MOTOR_SET(crlout);            //调节PWM占空比		
+		///////////////////////////////////////////
 		
 		 TIM_ClearITPendingBit(TIM4,TIM_IT_Update);
 	 }	
 }
+
+
+
+
 
 
