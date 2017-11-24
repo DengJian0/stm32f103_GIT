@@ -1,0 +1,16 @@
+..\output\main.o: ..\USER\main.c
+..\output\main.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\output\main.o: ..\Driver\CMSIS\CM3\CoreSupport\core_cm3.h
+..\output\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\main.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\output\main.o: ..\USER\stm32f10x_conf.h
+..\output\main.o: ..\Driver\Libraries\inc\stm32f10x_gpio.h
+..\output\main.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\output\main.o: ..\Driver\Libraries\inc\misc.h
+..\output\main.o: ..\MYLIB\MOTOR\motor.h
+..\output\main.o: ..\SYSTEM\timer\timer.h
+..\output\main.o: ..\Driver\Libraries\inc\stm32f10x_tim.h
+..\output\main.o: ..\Driver\Libraries\inc\stm32f10x_rcc.h
+..\output\main.o: ..\MYLIB\PID\pid.h
+..\output\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h

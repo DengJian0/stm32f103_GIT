@@ -1,0 +1,11 @@
+..\output\stm32f10x_dma.o: ..\Driver\Libraries\src\stm32f10x_dma.c
+..\output\stm32f10x_dma.o: ..\Driver\Libraries\inc\stm32f10x_dma.h
+..\output\stm32f10x_dma.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\output\stm32f10x_dma.o: ..\Driver\CMSIS\CM3\CoreSupport\core_cm3.h
+..\output\stm32f10x_dma.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\stm32f10x_dma.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\output\stm32f10x_dma.o: ..\USER\stm32f10x_conf.h
+..\output\stm32f10x_dma.o: ..\Driver\Libraries\inc\stm32f10x_gpio.h
+..\output\stm32f10x_dma.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\output\stm32f10x_dma.o: ..\Driver\Libraries\inc\misc.h
+..\output\stm32f10x_dma.o: ..\Driver\Libraries\inc\stm32f10x_rcc.h

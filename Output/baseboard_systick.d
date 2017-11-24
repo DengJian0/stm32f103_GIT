@@ -1,0 +1,10 @@
+..\output\baseboard_systick.o: ..\Driver\Baseboard\Baseboard_Systick.c
+..\output\baseboard_systick.o: ..\Driver\Baseboard\Baseboard_Systick.h
+..\output\baseboard_systick.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\output\baseboard_systick.o: ..\Driver\CMSIS\CM3\CoreSupport\core_cm3.h
+..\output\baseboard_systick.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\baseboard_systick.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+..\output\baseboard_systick.o: ..\USER\stm32f10x_conf.h
+..\output\baseboard_systick.o: ..\Driver\Libraries\inc\stm32f10x_gpio.h
+..\output\baseboard_systick.o: ..\Driver\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+..\output\baseboard_systick.o: ..\Driver\Libraries\inc\misc.h
